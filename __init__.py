@@ -1,6 +1,6 @@
 from aqt import mw
 from aqt.qt import QAction, QKeySequence
-from .cc-canto.main import start_main
+from .canto.main import start_main
 from .forms import dict_ui
 
 
