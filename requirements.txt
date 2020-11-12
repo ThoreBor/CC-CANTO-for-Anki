@@ -1,0 +1,5 @@
+mypy
+anki
+ankirspy
+aqt
+pytest
