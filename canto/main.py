@@ -108,7 +108,6 @@ class start_main(QDialog):
 			simplified = row[1]
 			p = row[2]
 			english = row[3]
-			english = english[:-3]
 			result = [simplified, traditional, p, english]
 			self.add_result(result)
 
