@@ -367,20 +367,19 @@ class start_main(QDialog):
 
 	def about(self):
 		about_text = """
-<h3>CC-CEDICT for Anki v1.3</h3>
-CC-CEDICT for Anki is licensed under the <a href="https://github.com/ThoreBor/CC-CEDICT-for-Anki/blob/master/LICENSE">MIT License.</a><br><br>
+<h3>CC-CANTO for Anki v1.0</h3>
+CC-CANTO for Anki is licensed under the <a href="https://github.com/ThoreBor/CC-Canto-for-Anki/blob/main/LICENSE">MIT License.</a><br><br>
 
 <b>This add-on also ships with the following third-party code:</b><br>
 - <a href="https://github.com/tsroten/hanzidentifier">hanzidentifier</a> by Thomas Roten (MIT Licence)<br>
 - <a href="https://github.com/tsroten/zhon">zhon</a> by Thomas Roten (MIT Licence)<br><br>
 
-This add-on uses the <a href="https://cc-cedict.org/wiki/">CC-CEDICT</a> dictionary, which is licensed under the 
+This add-on uses the <a href="https://cantonese.org/download.html">CC-CANTO</a> dictionary, which is licensed under the 
 <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a>.<br><br>
 
-The code for the add-on is available on <a href="https://github.com/ThoreBor/CC-CEDICT-for-Anki">GitHub.</a> 
-If you like this add-on, rate and review it on <a href="https://ankiweb.net/shared/info/418828045">Anki Web</a>. 
+The code for the add-on is available on <a href="https://github.com/ThoreBor/CC-Canto-for-Anki">GitHub.</a>
 If you want to report a bug, or make a feature request, please create a new 
-<a href="https://github.com/ThoreBor/CC-CEDICT-for-Anki/issues">issue</a> on GitHub.<br>
+<a href="https://github.com/ThoreBor/CC-Canto-for-Anki/issues">issue</a> on GitHub.<br>
 
 <div>Icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> 
 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
