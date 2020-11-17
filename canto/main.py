@@ -212,6 +212,11 @@ class start_main(QDialog):
 				self.exact_match(query, "hanzi_simp")
 			else:
 				self.partial_match(query, "hanzi_simp")
+		if any(i.isdigit() for i in query):
+			if self.dialog.checkBox.isChecked():
+				self.exact_match(query, "jyutping")
+			else:
+				self.partial_match(query, "jyutping")
 		if not hanzidentifier.is_traditional(query) and not hanzidentifier.is_simplified(query):
 			if self.dialog.checkBox.isChecked():
 				self.exact_match(query, "eng")
